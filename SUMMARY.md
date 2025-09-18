@@ -20,6 +20,7 @@
 ## Users Management
 
 * [Module Users](users-management/module-users.md)
+* [Mencari Users](users-management/mencari-users.md)
 
 ## Arsip Aktif
 
@@ -55,3 +56,10 @@
 ## Users
 
 * [Get Detail User Login](users/get-detail-user-login.md)
+
+## Unir Kearsipan
+
+* [Get Data](unir-kearsipan/get-data.md)
+* [Menambahkan Data](unir-kearsipan/menambahkan-data.md)
+* [Mengedit Data](unir-kearsipan/mengedit-data.md)
+* [Update User Penanggung Jawab](unir-kearsipan/update-user-penanggung-jawab.md)
