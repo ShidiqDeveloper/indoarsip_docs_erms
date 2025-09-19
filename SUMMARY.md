@@ -57,9 +57,16 @@
 
 * [Get Detail User Login](users/get-detail-user-login.md)
 
-## Unir Kearsipan
+## Unit Kearsipan
 
-* [Get Data](unir-kearsipan/get-data.md)
-* [Menambahkan Data](unir-kearsipan/menambahkan-data.md)
-* [Mengedit Data](unir-kearsipan/mengedit-data.md)
-* [Update User Penanggung Jawab](unir-kearsipan/update-user-penanggung-jawab.md)
+* [Get Data](unit-kearsipan/get-data.md)
+* [Menambahkan Data](unit-kearsipan/menambahkan-data.md)
+* [Mengedit Data](unit-kearsipan/mengedit-data.md)
+* [Update User Penanggung Jawab](unit-kearsipan/update-user-penanggung-jawab.md)
+
+## Record Centre
+
+* [Get Data](record-centre/get-data.md)
+* [Menambahkan Data](record-centre/menambahkan-data.md)
+* [Mengedit Data](record-centre/mengedit-data.md)
+* [Update User Penanggung Jawab](record-centre/update-user-penanggung-jawab.md)
