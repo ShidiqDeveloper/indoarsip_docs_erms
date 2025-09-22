@@ -33,6 +33,7 @@
 * [Get Detail Arsip Masuk](arsip-aktif/get-detail-arsip-masuk.md)
 * [Approve Permintaan Penambahan Arsip](arsip-aktif/approve-permintaan-penambahan-arsip.md)
 * [Reject Permintaan Penambahan Arsip](arsip-aktif/reject-permintaan-penambahan-arsip.md)
+* [Get Daftar Permintaan Arsip Masuk](arsip-aktif/get-daftar-permintaan-arsip-masuk.md)
 
 ## RBAC
 
@@ -51,7 +52,7 @@
 
 ## Arsip Dinamis
 
-* [Copy of List Arsip Aktif](arsip-dinamis/copy-of-list-arsip-aktif.md)
+* [Get Arsip Dinamis](arsip-dinamis/get-arsip-dinamis.md)
 
 ## Users
 
@@ -70,3 +71,8 @@
 * [Menambahkan Data](record-centre/menambahkan-data.md)
 * [Mengedit Data](record-centre/mengedit-data.md)
 * [Update User Penanggung Jawab](record-centre/update-user-penanggung-jawab.md)
+
+***
+
+* [Peminjaman Arsip](peminjaman-arsip/README.md)
+  * [Get List Peminjaman Arsip](peminjaman-arsip/get-list-peminjaman-arsip.md)

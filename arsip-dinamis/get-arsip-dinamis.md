@@ -2,9 +2,9 @@
 description: Endpoint ini untuk menambah arsip aktif
 ---
 
-# Copy of List Arsip Aktif
+# Get Arsip Dinamis
 
-<mark style="color:green;">`GET`</mark>`/arhives-active`
+<mark style="color:green;">`GET`</mark>`/arhives-dynamics`
 
 **Headers**
 
@@ -15,12 +15,14 @@ description: Endpoint ini untuk menambah arsip aktif
 
 **Query String**
 
-| Name                | Type   | Description                                            |
-| ------------------- | ------ | ------------------------------------------------------ |
-| unit\_pengolah\_id  | number | Filter bedasarkan unit pengolah                        |
-| `archive_status_id` | number | Filter berdasarkan status arsip aktif                  |
-| keyword             | string | Filter untuk nama arsip/nomor dokumen/keterangan arsip |
-|                     |        |                                                        |
+| Name                    | Type   | Description                                            |
+| ----------------------- | ------ | ------------------------------------------------------ |
+| keyword                 | string | Filter untuk nama arsip/nomor dokumen/keterangan arsip |
+| archive\_type\_id       | number | Filter berdasarkan jenis arsip                         |
+| archive\_status\_id     | number | Filter berdasarkan status arsip                        |
+| unit\_pengolah\_id      | number | Filter bedasarkan unit pengolah                        |
+| clasification\_code\_id | number | Filter berdasarkan kode klasifikasi arsip              |
+| page                    | number | Filter halaman ke-n                                    |
 
 **Response**
 
