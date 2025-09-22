@@ -76,3 +76,5 @@
 
 * [Peminjaman Arsip](peminjaman-arsip/README.md)
   * [Get List Peminjaman Arsip](peminjaman-arsip/get-list-peminjaman-arsip.md)
+* [Tunjuk Silang Arsip](tunjuk-silang-arsip/README.md)
+  * [Mendapatkan list tunjuk silang arsip](tunjuk-silang-arsip/mendapatkan-list-tunjuk-silang-arsip.md)
