@@ -83,3 +83,5 @@
   * [Menambahkan permintaan peminjaman arsip](peminjaman-arsip/menambahkan-permintaan-peminjaman-arsip.md)
   * [Get Detail Peminjaman Arsip](peminjaman-arsip/get-detail-peminjaman-arsip.md)
   * [Edit permintaan peminjaman arsip](peminjaman-arsip/edit-permintaan-peminjaman-arsip.md)
+  * [Setuju Peminjaman Arsip](peminjaman-arsip/setuju-peminjaman-arsip.md)
+  * [Tolak Peminjaman Arsip](peminjaman-arsip/tolak-peminjaman-arsip.md)

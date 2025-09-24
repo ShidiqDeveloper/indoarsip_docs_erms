@@ -1,6 +1,6 @@
 # Get List Arsip Yang Di pinjam
 
-<mark style="color:green;">`POST`</mark> `/users`
+<mark style="color:green;">`GET`</mark>`/borrow-requests/archive`
 
 Endpoint untuk mendapatkan list arsip yang sedang dipinjam
 
