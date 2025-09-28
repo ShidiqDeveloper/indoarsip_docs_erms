@@ -1,0 +1,79 @@
+# Perubahan Status Workflow
+
+<mark style="color:green;">`PUT`</mark> `/archives-vitals/request/{id_request}/workflow-status/{id_workflow}`&#x20;
+
+Endpoint untuk mengubah status workflow dari permintaan penambahan arsip vital
+
+**Headers**
+
+| Name          | Value              |
+| ------------- | ------------------ |
+| Content-Type  | `application/json` |
+| Authorization | `Bearer <token>`   |
+
+#### Body
+
+```
+{
+    reject_reason: <string> // Opsional jika status yang di set adalah reject
+    
+}
+```
+
+| Name           | Type   | Description    | Validation                                     |
+| -------------- | ------ | -------------- | ---------------------------------------------- |
+| reject\_reason | string | Alasan ditolak | required jika status yang dituju adalah reject |
+
+**Response**
+
+{% tabs %}
+{% tab title="200" %}
+```json
+{
+  code: 200,
+  status: true,
+  message: "Berhasil memperbarui status arsip!",
+  data: {
+    id: <int>,
+    approved_date: <date|null>,
+    count_archive: <int>,
+    count_revision: <int>,
+    reason_reject: <string|null>,
+    user_create: {
+      id: <int>,
+      name: <string>,
+    },
+    workflow_status: {
+      id: <int>,
+      status_name: <string>,
+    },
+    archives: [
+      {
+        id: <int>,
+        archive_name: <string>,
+        archive_number: <string>,
+        indeks_archive: <string>,
+        description_archive: <string|null>,
+        count_archive: <int>,
+        development_level: <string>,
+        physical_character: <string>,
+        confidentiality: <string>,
+        protect_method_archive: [
+          <string>,
+          <string>,
+          ...
+        ],
+        language: <string>,
+        hash_value: <string>,
+        clasification_code_id: {
+          id: <int>,
+          arsip_type: <string>,
+          code: <string>,
+        }
+      }
+    ]
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
