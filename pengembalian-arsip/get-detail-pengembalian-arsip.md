@@ -30,12 +30,6 @@ Endpoint untuk mendapatkan detail permintaan pengembalian arsip
       id: <int>,
       status_name: <string>,
     },
-    borrow_request: {
-      borrow_request_number: <string>,
-      borrow_date: <date>,
-      borror_return_date: <date>,
-      borrow_reason: <string>,
-    },
     user_borrow: {
       id: <int>,
       name: <string>,
@@ -60,6 +54,12 @@ Endpoint untuk mendapatkan detail permintaan pengembalian arsip
           code: <string>,
           organization: <string>
         },
+        borrow_request: {
+          id: <int>,
+          borrow_number: <int>,
+          borrow_date: <date>,
+          borrow_reason: <date>,
+        }
       }
     ]
   }

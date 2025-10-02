@@ -15,7 +15,7 @@ Endpoint untuk mengedit pengembalian barang
 
 ```
 {
-  borrow_request_id: <int>,
+  user_id: <int>,
   return_note: <string>,
   archives: [
     {
@@ -26,12 +26,12 @@ Endpoint untuk mengedit pengembalian barang
 }
 ```
 
-| Name                | Type   | Description                     | Validation                                   |
-| ------------------- | ------ | ------------------------------- | -------------------------------------------- |
-| `borrow_request_id` | number | ID Dari permintaan peminjaman   | required\|number\|exists:borrow\_requests.id |
-| `return_note`       | string | Catatan jika ada                | nullable\|string}max:300                     |
-| archives.id         | number | Arsip yang dikembalikan         | required\|number\|exists:archives,id         |
-| archives.note       | string | Catatan arsip yang dikembailkan | nullable\|string\|max:255                    |
+| Name          | Type   | Description                     | Validation                           |
+| ------------- | ------ | ------------------------------- | ------------------------------------ |
+| `user_id`     | number | ID Peminjam                     | required\|number\|exists:users.id    |
+| `return_note` | string | Catatan jika ada                | nullable\|string}max:300             |
+| archives.id   | number | Arsip yang dikembalikan         | required\|number\|exists:archives,id |
+| archives.note | string | Catatan arsip yang dikembailkan | nullable\|string\|max:255            |
 
 **Response**
 
@@ -50,12 +50,6 @@ Endpoint untuk mengedit pengembalian barang
     workflow_status: {
       id: &#x3C;int>,
       status_name: &#x3C;string>,
-    },
-    borrow_request: {
-      borrow_request_number: &#x3C;string>,
-      borrow_date: &#x3C;date>,
-      borror_return_date: &#x3C;date>,
-      borrow_reason: &#x3C;string>,
     },
     user_borrow: {
       id: &#x3C;int>,
@@ -81,6 +75,12 @@ Endpoint untuk mengedit pengembalian barang
           code: &#x3C;string>,
           organization: &#x3C;string>
         },
+        borrow_request: {
+          id: &#x3C;int>,
+          borrow_number: &#x3C;int>,
+          borrow_date: &#x3C;date>,
+          borrow_reason: &#x3C;date>,
+        }
       }
     ]
   }
