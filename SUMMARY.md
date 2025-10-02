@@ -95,6 +95,7 @@
 * [Get Sifat Kerahasiaan Arsip](get-sifat-kerahasiaan-arsip.md)
 * [Pengembalian Arsip](pengembalian-arsip/README.md)
   * [Menambah Data Pengembalian Barang](pengembalian-arsip/menambah-data-pengembalian-barang.md)
+  * [Mengedit Permintaan Pengembalian Arsip](pengembalian-arsip/mengedit-permintaan-pengembalian-arsip.md)
   * [Get List Pengembalian Arsip](pengembalian-arsip/get-list-pengembalian-arsip.md)
   * [Get Detail Pengembalian Arsip](pengembalian-arsip/get-detail-pengembalian-arsip.md)
   * [Perubahan Status Workflow](pengembalian-arsip/perubahan-status-workflow.md)

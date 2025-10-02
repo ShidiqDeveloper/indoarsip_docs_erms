@@ -1,8 +1,8 @@
-# Menambah Data Pengembalian Barang
+# Mengedit Permintaan Pengembalian Arsip
 
-<mark style="color:green;">`POST`</mark> `/return-borrows`
+<mark style="color:green;">`PUT`</mark> `/return-borrows/{id_return}`
 
-Endpoint untuk menambahkan pengembalian barang
+Endpoint untuk mengedit pengembalian barang
 
 **Headers**
 
@@ -36,11 +36,11 @@ Endpoint untuk menambahkan pengembalian barang
 **Response**
 
 {% tabs %}
-{% tab title="201" %}
+{% tab title="200" %}
 <pre class="language-json"><code class="lang-json"><strong>{
 </strong>  code: 201,
   status: true,
-  message: "Berhasil membuat pengembalian arsip!",
+  message: "Berhasil mengedit pengembalian arsip!",
   data: {
     id: &#x3C;int>,
     return_number: &#x3C;string>,
