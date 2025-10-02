@@ -1,6 +1,6 @@
 # Mencari arsip dipinjam
 
-<mark style="color:green;">`GET`</mark> `/archive-borrows/search`
+<mark style="color:green;">`GET`</mark> `/return-borrows/search-archive`
 
 Endpoint untuk mencari arsip yang sedang dipinjam
 
