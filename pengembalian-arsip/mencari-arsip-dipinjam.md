@@ -13,10 +13,10 @@ Endpoint untuk mencari arsip yang sedang dipinjam
 
 **Query String**
 
-| Name      | Type   | Description                                    |
-| --------- | ------ | ---------------------------------------------- |
-| `user_id` | number | Cari berdasarkan user                          |
-| `keyword` | string | Cari berdasarkan nama/kode arsip yang dipinjam |
+| Name      | Type   | Description                                    | Validasi |
+| --------- | ------ | ---------------------------------------------- | -------- |
+| `user_id` | number | Cari berdasarkan user                          | required |
+| `keyword` | string | Cari berdasarkan nama/kode arsip yang dipinjam | required |
 
 **Response**
 
