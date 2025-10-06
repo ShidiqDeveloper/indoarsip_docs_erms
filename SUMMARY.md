@@ -24,17 +24,6 @@
 
 ## Arsip Aktif
 
-* [List Arsip Aktif](arsip-aktif/list-arsip-aktif.md)
-* [Penambahan Arsip Aktif](arsip-aktif/penambahan-arsip-aktif.md)
-* [Edit Arsip Aktif](arsip-aktif/edit-arsip-aktif.md)
-* [Get Tipe Relasi Arsip](arsip-aktif/get-tipe-relasi-arsip.md)
-* [Get Detail Arsip Aktif](arsip-aktif/get-detail-arsip-aktif.md)
-* [Search Archive](arsip-aktif/search-archive.md)
-* [Get Detail Arsip Masuk](arsip-aktif/get-detail-arsip-masuk.md)
-* [Approve Permintaan Penambahan Arsip](arsip-aktif/approve-permintaan-penambahan-arsip.md)
-* [Reject Permintaan Penambahan Arsip](arsip-aktif/reject-permintaan-penambahan-arsip.md)
-* [Get Daftar Permintaan Arsip Masuk](arsip-aktif/get-daftar-permintaan-arsip-masuk.md)
-
 ## RBAC
 
 * [Check hak akses suatu module / aksi](rbac/check-hak-akses-suatu-module-aksi.md)
@@ -100,3 +89,13 @@
   * [Get Detail Pengembalian Arsip](pengembalian-arsip/get-detail-pengembalian-arsip.md)
   * [Perubahan Status Workflow](pengembalian-arsip/perubahan-status-workflow.md)
   * [Mencari arsip dipinjam](pengembalian-arsip/mencari-arsip-dipinjam.md)
+* [Arsip Aktif](arsip-aktif-1/README.md)
+  * [Get Daftar Permintaan Arsip Masuk](arsip-aktif-1/get-daftar-permintaan-arsip-masuk.md)
+  * [List Arsip Aktif](arsip-aktif-1/list-arsip-aktif.md)
+  * [Penambahan Arsip Aktif](arsip-aktif-1/penambahan-arsip-aktif.md)
+  * [Edit Arsip Aktif](arsip-aktif-1/edit-arsip-aktif.md)
+  * [Get Tipe Relasi Arsip](arsip-aktif-1/get-tipe-relasi-arsip.md)
+  * [Get Detail Arsip Aktif](arsip-aktif-1/get-detail-arsip-aktif.md)
+  * [Search Archive](arsip-aktif-1/search-archive.md)
+  * [Get Detail Arsip Masuk](arsip-aktif-1/get-detail-arsip-masuk.md)
+  * [Perubahan Status Workflow](arsip-aktif-1/perubahan-status-workflow.md)

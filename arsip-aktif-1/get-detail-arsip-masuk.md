@@ -37,9 +37,9 @@ description: Endpoint untuk mendapatkan data detail dari arsip masuk / batch
       id: <int>,
       name: <string>,
     },
-    status: {
+    workflow_status: {
       id: <int>,
-      archive_in_status: <string>,
+      status_name: <string>,
     },
     owner_role: {
       id: <int>,
@@ -56,6 +56,8 @@ description: Endpoint untuk mendapatkan data detail dari arsip masuk / batch
         archive_name: <string>,
         archive_number: <string>,
         indeks_archive: <string>,
+        start_date_active: <date>,
+        end_date_active: <date>,
         description_archive: <string|null>,
         count_archive: <int>,
         development_level: <string>,
@@ -66,7 +68,32 @@ description: Endpoint untuk mendapatkan data detail dari arsip masuk / batch
           id: <int>,
           arsip_type: <string>,
           code: <string>,
-        }
+        },
+        status: {
+          id: <int>,
+          archive_status: <string>,
+          color: <string>,
+        },
+        storage_location: {
+          id: <int>,
+          location_name: <string>,
+        },
+        relations: [
+          {
+            id: <int>,
+            archive: {
+              archive_name: <string>,
+              archive_number: <string>,
+            },
+            relation_type: {
+              id: <int>,
+              relation_type: <string>,
+            },
+            note: <string>
+          }
+        ],
+        created_at: <timestamp>,
+        updated_at: <timestamp>,
       }
     ]
   }
